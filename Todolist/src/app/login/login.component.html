@@ -1,0 +1,28 @@
+  
+  
+  <mat-card>
+    <mat-card-title style="background-color: rgb(44, 143, 143);">Login</mat-card-title>
+     
+<mat-card-content style="background-color: rgb(44, 143, 143);" >
+  
+<form  (ngSubmit)="login()" style="background-color: aqua;">
+  <p>
+    <mat-form-field>
+      <th>Username :
+        <input matInput placeholder="Username" [(ngModel)]="username" name="username" required=""></th>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field>
+      <th>Password :
+      <input matInput type="password" placeholder="Password" [(ngModel)]="password" name="password" required=""></th>
+    </mat-form-field>
+  </p>
+
+  <div class="button">
+    <button type="submit" mat-button color="primary" style="background-color: rgb(192, 192, 231); "><b>Login</b></button>
+  </div>
+
+</form>
+</mat-card-content>
+</mat-card>

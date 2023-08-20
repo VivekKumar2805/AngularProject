@@ -1,0 +1,59 @@
+{
+  "productList": [
+    {
+      "productName": "Patato",
+      "category": "Vegetable",
+      "freshness": "Second Hand",
+      "price": 200,
+      "comment": "fresh but secondhand",
+      "date": "2023-08-18T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "freshness": "Second Hand",
+      "price": 500,
+      "comment": "not fresh",
+      "date": "2023-08-01T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productName": "Apple",
+      "category": "Fruits",
+      "freshness": "Brand New",
+      "price": 25,
+      "comment": "new",
+      "date": "2023-08-16T18:30:00.000Z",
+      "id": 11
+    },
+    {
+      "productName": "Iphone 15 Pro Max",
+      "category": "Electronic",
+      "freshness": "Brand New",
+      "price": 200000,
+      "comment": "new1",
+      "date": "2023-08-17T18:30:00.000Z",
+      "id": 12
+    },
+    {
+      "productName": "kiwi",
+      "category": "Fruits",
+      "freshness": "Refurnished",
+      "price": 123,
+      "comment": "fgdf",
+      "date": "2023-08-08T18:30:00.000Z",
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
