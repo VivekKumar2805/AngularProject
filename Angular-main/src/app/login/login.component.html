@@ -1,0 +1,17 @@
+<!-- <p>login works!</p> -->
+<div>
+    <h2>Login</h2>
+    <form (ngSubmit) = "login()">
+        <label for="userId "> User ID: </label>
+        <input type = "text"id="userId" [(ngModel)]="userId">
+        <br>
+        <label for="password ">Password: </label>
+        <input type = "password"id="password" [(ngModel)]="password">
+    </form>
+</div>
+
+<h2>{{userId}}
+    {{password}}
+</h2>
+
+
